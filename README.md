@@ -2,6 +2,8 @@
 
 GetFit is an Android mobile application that helps people get fit! It tracks your running workouts using GPS and the Google Maps API. It can show you the duration of the run, the location of the run, and how many calories are burnt from the run.
 
+![main screen](https://github.com/Genuinely/getfit/screenshots/mainscreen.png)
+
 ## Requirement
 
 **Minimum Android SDK API Level**: require API 21: Android 5.0 (Lollipop).  This app shall run on > 85% of all Android phone and tablet devices.
