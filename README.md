@@ -26,3 +26,36 @@ The app uses [Google Maps API](https://developers.google.com/maps/documentation/
 
 ### (5) Calorie Tracking Algorithm
 The calories burnt is calculated through the number of steps taken based off this [source](https://www.verywellfit.com/pedometer-steps-to-calories-converter-3882595). 
+
+## Assumptions
+
+I made several assumptions for the distance and calories calculation:
+
+### (1) Steps per Mile (SPM)
+
+In getfit, SPM calculation is gender based:
+* Male: 2112 steps in mile
+* Female: 2400 steps in mile
+
+A more rigorious modeling of SPM can be based on the type of activities (slow walking, running, etc.) and the height of a person.  You can find more information from this [source](https://www.verywellfit.com/how-many-walking-steps-are-in-a-mile-3435916).
+
+### (2) Calories per Weight (CPW)
+
+CPW calculation is tabulated below:
+
+
+| Weight | Calries per step |
+|--------|------------------|
+| < 120     | 0.028 |
+| 120 - 139 | 0.033 |
+| 140 - 159 | 0.038 |
+| 160 - 179 | 0.044 |
+| 180 - 199 | 0.049 |
+| 200 - 219 | 0.055 |
+| 220 - 249 | 0.060 |
+| 250 - 274 | 0.069 |
+| 275 - 299 | 0.075 |
+| >= 300 | 0.082 |
+
+
+
