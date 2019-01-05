@@ -1,2 +1,2 @@
 # getfit
-Android Fitness Tracking App
+*getfit* is an Android Fitness Tracking App
